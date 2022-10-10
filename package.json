@@ -1,0 +1,28 @@
+{
+  "name": "cpqdid-whitelabel-main",
+  "version": "0.0.1",
+  "description": "",
+  "main": "entry.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "ci:core": "cd bifold/core && npm ci",
+    "ci:app": "cd app && npm ci",
+    "ci:all": "run-s ci:core ci:app",    
+    "build:core": "cd bifold/core && npm run prepack",
+    "build:app": "cd app && npm run prepack --if-present",
+    "build:all": "run-s build:core build:app",
+    "prepare": "run-s ci:all build:all",
+    "start": "cd app && npm run start",
+    "android": "cd app && npm run android",
+    "ios": "cd app && npm run ios",
+    "preinstall": "echo 'pre install running...'"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
