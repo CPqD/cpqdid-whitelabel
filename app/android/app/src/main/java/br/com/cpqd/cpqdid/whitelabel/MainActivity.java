@@ -24,6 +24,6 @@ public class MainActivity extends ReactActivity {
     }
   }
   protected String getMainComponentName() {
-    return "aries-bifold";
+    return "cpqdid-whitelabel";
   }
 }

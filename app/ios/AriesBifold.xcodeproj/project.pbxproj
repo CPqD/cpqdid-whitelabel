@@ -542,8 +542,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.AriesBifold;
-				PRODUCT_NAME = AriesBifold;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cpqd.cpqdid.whitelabel;
+				PRODUCT_NAME = CPQDiD-Whitelabel;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -577,8 +577,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.AriesBifold;
-				PRODUCT_NAME = AriesBifold;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.cpqd.cpqdid.whitelabel;
+				PRODUCT_NAME = CPQDiD-Whitelabel;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
